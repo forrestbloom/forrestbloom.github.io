@@ -1,6 +1,8 @@
 new TypeIt('#intro', {
-    speed: 85,
-    autoStart: false
+    speed: 65,
+    autoStart: false,
+    lifeLike: true,
+    startDelay: 500
     })
     .type('Forrest Bloom')
     .pause(100)
