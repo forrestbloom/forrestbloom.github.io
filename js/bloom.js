@@ -6,5 +6,8 @@ new TypeIt('#intro', {
     .pause(100)
     .break()
     .type('Music Production, Mixing, and Mastering')
-    .pause(1000)
-    .delete(2);
+    .pause(600)
+    .type('(just a bit)')
+    .pause(600)
+    .type('Checkout my production catalog below')
+    .delete();
