@@ -1,4 +1,5 @@
-// The simplest example
 new TypeIt('#intro', {
-    strings: 'This is my string!'
-});
+    strings: 'This is a simple string.',
+    speed: 50,
+    autoStart: true
+  });
