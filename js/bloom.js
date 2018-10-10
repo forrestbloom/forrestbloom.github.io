@@ -1,5 +1,5 @@
 new TypeIt('#intro', {
-    speed: 10,
+    speed: 120,
     autoStart: false
     })
     .type('Forrest Bloom')
@@ -11,4 +11,6 @@ new TypeIt('#intro', {
     .pause(600)
     .break()
     .type('Checkout my production catalog below')
-    .delete(10);
+    .pause(1500)
+    .delete(36)
+    .type('I promise most of them are fire');
