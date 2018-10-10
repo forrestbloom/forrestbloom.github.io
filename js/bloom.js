@@ -1,5 +1,5 @@
 new TypeIt('#intro', {
-    speed: 65,
+    speed: 55,
     autoStart: false,
     lifeLike: true,
     startDelay: 500
