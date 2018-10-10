@@ -1,5 +1,4 @@
-var instance = new TypeIt('#intro', {
-    strings: ['This is my string!'],
-    speed: 50,
-    autoStart: true
+// The simplest example
+new TypeIt('.type-it', {
+    strings: 'This is my string!'
 });
