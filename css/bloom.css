@@ -1,7 +1,10 @@
-h5 {
+h6 {
     font-family: "Inconsolata";
+    text-transform: uppercase;
+
 }
 
 p {
     font-family: "Inconsolata";
+    
 }
