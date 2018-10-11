@@ -1,3 +1,9 @@
+
+body {
+    background: black;
+    color: #eaffe0
+}
+
 h6 {
     font-family: "Inconsolata";
     text-transform: uppercase;
@@ -31,7 +37,8 @@ p {
 
 .dropdown-content a {
     color: black;
-    text-decoration: none
+    text-decoration: none; 
+
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
