@@ -185,12 +185,8 @@ input[type="button"] {
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
+input[type="button"]:hover
+{
   color: black;
   background-color: #eaffe0;
 }
@@ -363,7 +359,12 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
-
+.height {
+  height: auto;
+}
+.album-art {
+  padding-top: 5%;
+}
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
