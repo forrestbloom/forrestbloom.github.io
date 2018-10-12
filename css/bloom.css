@@ -40,3 +40,6 @@ a {
     bottom: 3% !important;
 }
 
+.selected {
+    background-color: yellow;
+}
