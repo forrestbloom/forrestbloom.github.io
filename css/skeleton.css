@@ -170,6 +170,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  font-family: "Inconsolata";
   display: inline;
   text-align: center;
   padding: 10px;
