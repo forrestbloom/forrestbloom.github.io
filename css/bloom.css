@@ -4,6 +4,9 @@ body {
     color: #eaffe0;
 }
 
+a:hover {
+    color: white;
+}
 h6 {
     font-family: "Inconsolata";
     text-transform: uppercase;

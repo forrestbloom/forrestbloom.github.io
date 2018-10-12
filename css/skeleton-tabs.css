@@ -1,10 +1,28 @@
 
 ul.tab-nav {
+    padding-top: 10px;
     list-style: none;
+    text-align: center;
+    font-family: "Inconsolata";
 }
 
 ul.tab-nav li {
     display: inline;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #eaffe0;
+}
+
+
+ul.tab-nav li a:hover, ul.tab-nav li:hover {
+    color: black;
+    background-color: #eaffe0;
+    
+}
+
+ul.tab-nav li:first-child {
+    border-right: none;
+    margin-right: -2px;
 }
 
 ul.tab-nav li a.button {
