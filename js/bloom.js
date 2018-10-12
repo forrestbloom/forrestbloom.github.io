@@ -11,6 +11,6 @@ new TypeIt('#intro', {
     .pause(1000)
     .type(' (just a bit)');
 
-    
+
 
    

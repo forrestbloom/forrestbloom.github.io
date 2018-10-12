@@ -21,20 +21,3 @@
     }
 })();
 
-$(document).ready(function() {
-    $('.step-tabs').on('click', function() {
-        $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 800);
-    });
-});
-
-
-$('#next').click(function() {
-    $('.tab-nav > .selected').next('li').find('a').trigger('click');
-});
-
-
-$('#prev').click(function() {
-    $('.tab-nav > .selected').prev('li').find('a').trigger('click');
-});
