@@ -34,5 +34,8 @@ a {
     position: fixed;
     top: 50%;
 }
-  
+
+#email {
+    bottom: 5% !important;
+}
 
