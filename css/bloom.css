@@ -1,8 +1,7 @@
 
 body {
     background: black;
-    color: #eaffe0 !important;
-    text-decoration: none;
+    color: #eaffe0;
 }
 
 h6 {
@@ -16,10 +15,21 @@ p {
     
 }
 
-
+a {
+    text-decoration: none;
+    color: #eaffe0;
+}
 
 /* Dropdown Menu
    ========================================================================== */
 
 
+/* Contact
+   ========================================================================== */
+
+.contact {
+    position: fixed;
+    top: 50%;
+}
+  
 
