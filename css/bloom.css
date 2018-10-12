@@ -36,6 +36,7 @@ a {
 }
 
 #email {
-    bottom: 5% !important;
+    position: fixed;
+    bottom: 3% !important;
 }
 
