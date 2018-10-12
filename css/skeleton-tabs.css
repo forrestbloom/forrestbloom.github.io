@@ -10,7 +10,11 @@ ul.tab-nav li {
     display: inline;
     text-align: center;
     padding: 10px;
-    border: 2px solid #eaffe0;
+    border-left: 2px solid #eaffe0;
+    border-right: 2px solid #eaffe0;
+    border-top: 2px solid #eaffe0;
+    border-bottom: 2px solid #eaffe0;
+    
 }
 
 
@@ -22,16 +26,20 @@ ul.tab-nav li a:hover, ul.tab-nav li:hover {
 
 ul.tab-nav li:first-child {
     border-right: none;
-    margin-right: -2px;
+}
+
+ul.tab-nav li:first-child a.button{
+    margin-right: -7px;
 }
 
 ul.tab-nav li a.button {
     margin-bottom: -1px;
-    border-bottom: 0.175em solid #eaffe0;
+    
 }
 
 ul.tab-nav li a.active.button {
     border-bottom: none;
+    
 
 }
 
