@@ -8,14 +8,13 @@ ul.tab-nav li {
 }
 
 ul.tab-nav li a.button {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
     margin-bottom: -1px;
-    border-bottom: none;
+    border-bottom: 0.175em solid #eaffe0;
 }
 
 ul.tab-nav li a.active.button {
-    border-bottom: 0.175em solid #eaffe0;
+    border-bottom: none;
+
 }
 
 .tab-content .tab-pane {
