@@ -35,8 +35,6 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container centered">
-      <button class="prev">Previous</button>
-      <button class="next">Next</button>
       <div class="step-tabs">
           <ul class="tab-nav centered" id="list">
               <li class="selected">
@@ -108,24 +106,6 @@
 <script src="js/typeit.min.js"></script>
 <script src="js/skeleton-tabs.js"></script>
 <script src="js/bloom.js"></script>
-<script>
-  $(document).ready(function() {
-      $('.step-tabs').on('click', function() {
-          $('html,body').animate({
-              scrollTop: $(this).offset().top
-          }, 800);
-      });
-  });
-  
-  
-  $('.next').click(function() {
-      $('.tab-nav > .selected').next('li').find('a.active.button').trigger('click');
-  });
-  
-  
-  $('.prev').click(function() {
-      $('.tab-nav > .selected').prev('li').find('a.active.button').trigger('click');
-  });
-</script>
+
 
 </html>
